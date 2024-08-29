@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/engymahmoud21/creat_ec2.git'
+                git branch: 'main', url: 'https://github.com/engymahmoud21/creat_ec2_test.git'
             }
         }
         stage('Terraform init') {
